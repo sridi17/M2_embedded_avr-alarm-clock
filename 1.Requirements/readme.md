@@ -2,47 +2,44 @@
 
 
 # INTRODUCTION #
-- In this project we are going to design a simple Alarm clock using ATMEGA32 timers.
- ATmega32A microcontroller has a 16 bit timer,
- and we will be using that timer to count the seconds and develop a digital clock.
-- All the digital clocks have a crystal inside of them which is the heart of clock. 
-- This crystal not only present in clock but present in all computing real time systems. 
-- This crystal generates clock pulses, which is needed for timing calculations. 
-- Although there are some other ways to get clock pulses but for accuracy and higher frequency most prefer crystal based clock.
--  We are going to connect a crystal to ATMEGA32 for getting accurate clock.
+-Digital wall clocks are common items seen in almost every household, office, and industry.
+- It is a common but essential household item that allows us to get our bearings and gives us a sense of the day we are spending. 
+- Buying a new wall clock will generally cost you a bit more money than you would initially expect since it is the basic habit of shopkeepers to dupe their customers.
+-  But luckily there is a simple way of making a digital wall clock. 
+
 
 # SWOT ANALYSIS #
 
 # STRENGTH #
-- Still runs on 5 V, so legacy 5 V stuff interfaces cleaner
-- Even though it's 5 V capable, newer parts can run to 1.8 V. This wide range is very rare.
-- Nice instruction set, very good instruction throughput compared to other processors (HCS08, PIC12/16/18).
-- High quality GCC port (no proprietary crappy compilers!)
-- "PA" variants have good sleep mode capabilities, in micro-amperes.
+-  ATmega328P is a high performance yet low power consumption 8-bit AVR microcontroller.
+-  that’s able to achieve the most single clock cycle execution of 131 powerful instructions thanks to its advanced RISC architecture.
+-  It can commonly be found as a processor in Arduino boards such as Arduino Fio and Arduino Uno.
 
 # weakness #
-- Still 8-bit. An ARM is a 16/32-bit workhorse, and will push a good amount more data around, at much higher clock speeds, than any 8-bit.
-- Cost Can be expensive compared to HCS08 or other bargain 8-bit processors.
-- GCC toolchain has quirks, like the split memory model and limited 16-bit pointers.
-- Atmel is not the best supplier on the planet (at least they're not Maxim...)
+- Processors are simpler to use, with the usage of 8bit and 16bit instead of 32/64bit which are more complex.
+- Readily usable without additional computing components with 32k bytes of onboard self-programmable flash program memory as well as 23 programmable I/O lines Code Efficient.
+-  all 31 registers are directly connected to the arithmetic logic unit (ALU), making it 10 times faster than conventional CISC microcontrollers
+- Optimized for AVR enhanced RISC instruction set
 
 # opportunity #
-The high-performance, low-power Microchip 8-bit AVR® RISC-based microcontroller combines 32 KB ISP flash memory with read-while-write capabilities, 1 KB EEPROM, 2 KB SRAM, 54/69 general purpose I/O lines, 32 general purpose working registers, a JTAG interface for boundary-scan and on-chip debugging/programming, three flexible timer/counters with compare modes, internal and external interrupts, serial programmable USART, a universal serial interface (USI) with start condition detector, an 8-channel 10-bit A/D converter, programmable watchdog timer with internal oscillator, SPI serial port, and five software selectable power saving modes. The device operates between 1.8-5.5 volts.
-By executing powerful instructions in a single clock cycle, the device achieves throughputs approaching one MIPS per MHz, balancing power consumption and processing speed.
-
-# THREAT #
+ATmega328P is a low-power CMOS 8-bit microcontroller based on the AVR enhanced RISC architecture. The ATmega328P achieves throughputs approaching 1MIPS per MHz By executing powerful instructions in a single clock cycle. This allows system designers to optimize power consumption versus processing speed very easily. ATMega328p is one of the famous MCUs of Atmel because of its use in the Arduino UNO board. ATmega328P is designed with low current consumption features. The chip contains 32 kilobytes of internal flash memory, 1KB of EEPROM, and 2KB of SRAM.
+# THREAT # 
 - High up-front costs
 - Performance standardization has not yet been streamlined.
 
 # 4W & 1H #
 # WHY #
-- All the digital clocks have a crystal inside of them which is the heart of clock.
-- This crystal not only present in clock but present in all computing real time systems. This crystal generates clock pulses, which is needed for timing calculations. 
-- Although there are some other ways to get clock pulses but for accuracy and higher frequency most prefer crystal based clock.
-- We are going to connect a crystal to ATMEGA32 for getting accurate clock.
+- All the digital  wall clocks have a crystal inside of them which is the heart of clock.
+-  It is a common but essential household item that allows us to get our bearings and gives us a sense of the day we are spending. 
+- Buying a new wall clock will generally cost you a bit more money than you would initially expect since it is the basic habit of shopkeepers to dupe their customers.
+-  But luckily there is a simple way of making a digital wall clock. 
+
+
 
 # WHAT #
-ATmega32A microcontroller has a 16 bit timer, and we will be using that timer to count the seconds and develop a digital clock.
+- These DIY Digital wall clock are usually used in places such as offices, homes, schools
+- Also used in appliances such as ovens, food timers, washing machines, etc.
+
 
 # WHEN #
 - For accurate timing, we have connected a 11.0592MHz crystal for clock.
@@ -53,7 +50,23 @@ ATmega32A microcontroller has a 16 bit timer, and we will be using that timer to
 - through lcd display we can see the digital time.
 
 # LOW LEVEL REQUIREMENT
-Hardware: ATmega32 microcontroller, 11.0592MHz crystal, 22pF Capacitor (2 pieces), Power supply (5v), AVR-ISP PROGRAMMER, JHD_162ALCD(16x2 LCD), 100uF capacitor (connected across power supply), buttons (four pieces),  10KΩ resistor (six pieces), 100nF capacito r(four pieces), Three pin switches (2 pieces), 2N2222 transistor, Buzzer, 200Ω resistor.
+# HADWARE COMPONENT
+MCU IC	Microchip ATMega328p	1
+2)	Arduino Uno Board	Rev3, 8KB	1
+3)	Crystal Oscillator	16MHz	1
+4)	IC Base	28 – pin	1
+5)	7 – segment display	common anode	4
+6)	Capacitors	22pF	2
+7)	Resistors	220 Ohm, 1K	28
+8)	LED	5mm, 3.5V	1
+9)	Header Pins	Female/male	2
+10)	Soldering Iron	45W – 65W	1
+11)	Soldering Wire with Flux	–	1
+12)	Pushbutton	–	1
+13)	Toggle switch	–	2
+14)	Veroboard	–	1
+15)	DC Battery with Clip	3.7V	1
+16)	Jumper Wires	
 # HIGH LEVEL REQUIREMENT
 AVR compiler,simule ide
 
