@@ -52,7 +52,6 @@ ATmega328P is a low-power CMOS 8-bit microcontroller based on the AVR enhanced R
 # LOW LEVEL REQUIREMENT
 # HADWARE COMPONENT
 MCU IC	Microchip ATMega328p	1
-2)	Arduino Uno Board	Rev3, 8KB	1
 3)	Crystal Oscillator	16MHz	1
 4)	IC Base	28 – pin	1
 5)	7 – segment display	common anode	4
