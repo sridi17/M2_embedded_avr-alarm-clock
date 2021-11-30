@@ -1,4 +1,4 @@
 # BEHAVIOUR DIAGRAM #
+1[]![image](https://user-images.githubusercontent.com/94300992/144032061-f62eba50-aeef-444a-b0b9-414e3157fbb1.png)
 
-![]![image](https://user-images.githubusercontent.com/94300992/143983389-fdb6f86a-97cf-4397-aca6-116763f3f820.png)
 
