@@ -51,21 +51,19 @@ ATmega328P is a low-power CMOS 8-bit microcontroller based on the AVR enhanced R
 
 # LOW LEVEL REQUIREMENT
 # HADWARE COMPONENT
-MCU IC	Microchip ATMega328p	1
-3)	Crystal Oscillator	16MHz	1
-4)	IC Base	28 – pin	1
-5)	7 – segment display	common anode	4
-6)	Capacitors	22pF	2
-7)	Resistors	220 Ohm, 1K	28
-8)	LED	5mm, 3.5V	1
-9)	Header Pins	Female/male	2
-10)	Soldering Iron	45W – 65W	1
-11)	Soldering Wire with Flux	–	1
-12)	Pushbutton	–	1
-13)	Toggle switch	–	2
-14)	Veroboard	–	1
-15)	DC Battery with Clip	3.7V	1
-16)	Jumper Wires	
+- DS3231 RTC Module
+- ATmega 328p IC with preloaded bootloaded
+- 4 seven segment displays
+- 5V mini buzzer
+- 4 push button SPST
+- Resistors: 10K ohm - 11units, 220 ohm - 4units
+- 22pf capacitors - 2units
+- 16Mhz XTAL oscillator
+- Male berg strips - 2units, female berg strips - 2units
+- Two 4*2 inch dot matrix PCBs
+- 28 pin DIP IC base
+- Micro-b port
+
 # HIGH LEVEL REQUIREMENT
 AVR compiler,simule ide
 
