@@ -1,1 +1,3 @@
-# M2_embedded_avr alarm clock
+# DESIGN #
+# - BEHAVIOUR DIAGRAM #
+# - STRUCTURAL DIAGRAM #
