@@ -52,9 +52,9 @@ ATmega32A microcontroller has a 16 bit timer, and we will be using that timer to
 # HOW #
 - through lcd display we can see the digital time.
 
-# HIGH LEVEL REQUIREMENT
-Hardware: ATmega32 microcontroller, 11.0592MHz crystal, 22pF Capacitor (2 pieces), Power supply (5v), AVR-ISP PROGRAMMER, JHD_162ALCD(16x2 LCD), 100uF capacitor (connected across power supply), buttons (four pieces),  10KΩ resistor (six pieces), 100nF capacito r(four pieces), Three pin switches (2 pieces), 2N2222 transistor, Buzzer, 200Ω resistor.
 # LOW LEVEL REQUIREMENT
+Hardware: ATmega32 microcontroller, 11.0592MHz crystal, 22pF Capacitor (2 pieces), Power supply (5v), AVR-ISP PROGRAMMER, JHD_162ALCD(16x2 LCD), 100uF capacitor (connected across power supply), buttons (four pieces),  10KΩ resistor (six pieces), 100nF capacito r(four pieces), Three pin switches (2 pieces), 2N2222 transistor, Buzzer, 200Ω resistor.
+# HIGH LEVEL REQUIREMENT
 AVR compiler,simule ide
 
 
