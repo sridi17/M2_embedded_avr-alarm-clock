@@ -1,4 +1,4 @@
-# M2_embedded_seven segment disolay driver
+# M2_embedded_seven segment display driver
 
 
 
