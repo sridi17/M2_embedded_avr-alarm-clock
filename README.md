@@ -1,4 +1,4 @@
-# M2_embedded_avr alarm clock
+# M2_embedded_SEVEN-SEGMENT-DISPLAY-DRIVER
 
 
 
