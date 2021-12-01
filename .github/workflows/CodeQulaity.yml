@@ -1,11 +1,8 @@
-name: Cppcheck
+name: CODEQulaity
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
+   
 jobs:
   build:
 
