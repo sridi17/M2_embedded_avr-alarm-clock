@@ -1,4 +1,4 @@
-# M2_embedded_avr wall clock
+# M2_embedded_seven segment disolay driver
 
 
 
