@@ -54,3 +54,52 @@ ATmega328P is a low-power CMOS 8-bit microcontroller based on the AVR enhanced R
 
 
 
+
+# 4W & 1H #
+# WHY #
+- In most applications, however, using a single-digit seven-segment display (SSD),
+-  may not be sufficient to display the entire information, hence multiple SSD units are connected in parallel.
+-   In order to display different characters, symbols or numbers, 
+-   the data being displayed on each SSD has to be different. 
+
+
+# WHAT #
+- In the case of interfacing a microcontroller with an SSD display,
+- using another microcontroller as a driver which acts as a peripheral to the main microcontroller can be very helpful.
+
+# WHEN #
+-  When connected with the appropriate I2C master device which identifies its slave address, 
+-  the data sent from the master (in this case light intensity) is printed on to the display.
+
+
+
+# HOW #
+- through seven sigment display we can see the digital time.
+
+# LOW LEVEL REQUIREMENT
+# HADWARE COMPONENT
+- Hardware components
+- ATmega328	
+- 7 Segment LED Display
+- General Purpose Transistor NPN	
+- Through Hole Resistor, 680 ohm	
+- 16 MHz Crystal	 
+- Capacitor 22 pF	
+- Capacitor 10 µF		
+- Capacitor 100 nF	
+- Resistor 10k ohm	
+- SparkFun USB to Serial Breakout - FT232RL	
+- SparkFun USB to Serial Breakout - FT232RL
+
+# HIGH LEVEL REQUIREMENT
+AVR compiler,simule ide
+
+
+
+# OUTPUT #
+
+
+
+
+
+
