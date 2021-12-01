@@ -2,11 +2,9 @@
 
 
 # INTRODUCTION #
--Digital wall clocks are common items seen in almost every household, office, and industry.
-- It is a common but essential household item that allows us to get our bearings and gives us a sense of the day we are spending. 
-- Buying a new wall clock will generally cost you a bit more money than you would initially expect since it is the basic habit of shopkeepers to dupe their customers.
--  But luckily there is a simple way of making a digital wall clock. 
-
+- This project deals with the designing of a seven-segment display(SSD) I2C driver using ATmega328.
+- in most applications, however, using a single-digit seven-segment display (SSD), may not be sufficient to display the entire information, hence multiple SSD units are         connected in parallel.
+- Therefore, when using a microcontroller to operate a seven-segment LED display, 8 pins are required to control individual LEDs in the display, which can be brought down to   4 using a decoder.
 
 # SWOT ANALYSIS #
 
@@ -29,40 +27,39 @@ ATmega328P is a low-power CMOS 8-bit microcontroller based on the AVR enhanced R
 
 # 4W & 1H #
 # WHY #
-- All the digital  wall clocks have a crystal inside of them which is the heart of clock.
--  It is a common but essential household item that allows us to get our bearings and gives us a sense of the day we are spending. 
-- Buying a new wall clock will generally cost you a bit more money than you would initially expect since it is the basic habit of shopkeepers to dupe their customers.
--  But luckily there is a simple way of making a digital wall clock. 
-
+- In most applications, however, using a single-digit seven-segment display (SSD),
+-  may not be sufficient to display the entire information, hence multiple SSD units are connected in parallel.
+-   In order to display different characters, symbols or numbers, 
+-   the data being displayed on each SSD has to be different. 
 
 
 # WHAT #
-- These DIY Digital wall clock are usually used in places such as offices, homes, schools
-- Also used in appliances such as ovens, food timers, washing machines, etc.
-
+- In the case of interfacing a microcontroller with an SSD display,
+- using another microcontroller as a driver which acts as a peripheral to the main microcontroller can be very helpful.
 
 # WHEN #
-- For accurate timing, we have connected a 11.0592MHz crystal for clock.
-- Now for disabling the internal clock of ATMEGA we have to change its LOW FUSE BITS. 
-- Remember we are not touching the high fuse bits so the JTAG communication would be still enabled.
+-  When connected with the appropriate I2C master device which identifies its slave address, 
+-  the data sent from the master (in this case light intensity) is printed on to the display.
+
+
 
 # HOW #
-- through lcd display we can see the digital time.
+- through seven sigment display we can see the digital time.
 
 # LOW LEVEL REQUIREMENT
 # HADWARE COMPONENT
-- DS3231 RTC Module
-- ATmega 328p IC with preloaded bootloaded
-- 4 seven segment displays
-- 5V mini buzzer
-- 4 push button SPST
-- Resistors: 10K ohm - 11units, 220 ohm - 4units
-- 22pf capacitors - 2units
-- 16Mhz XTAL oscillator
-- Male berg strips - 2units, female berg strips - 2units
-- Two 4*2 inch dot matrix PCBs
-- 28 pin DIP IC base
-- Micro-b port
+- Hardware components
+- ATmega328	
+- 7 Segment LED Display
+- General Purpose Transistor NPN	
+- Through Hole Resistor, 680 ohm	
+- 16 MHz Crystal	 
+- Capacitor 22 pF	
+- Capacitor 10 µF		
+- Capacitor 100 nF	
+- Resistor 10k ohm	
+- SparkFun USB to Serial Breakout - FT232RL	
+- SparkFun USB to Serial Breakout - FT232RL
 
 # HIGH LEVEL REQUIREMENT
 AVR compiler,simule ide
