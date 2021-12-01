@@ -1,7 +1,8 @@
-# M2_embedded_seven segment display driver
+# M2_embedded_avr alarm clock
 
-[![CI](https://github.com/sridi17/M2_embedded_seven-segment-display-driver/actions/workflows/main.yml/badge.svg)](https://github.com/sridi17/M2_embedded_seven-segment-display-driver/actions/workflows/main.yml)
 
+
+![]![image](https://user-images.githubusercontent.com/94300992/143984892-689473a5-3c99-479e-a7db-96d73813d2d6.png)
 
 
 
