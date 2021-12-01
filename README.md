@@ -1,6 +1,6 @@
 # M2_embedded_seven segment display driver
 
-
+[![CI](https://github.com/sridi17/M2_embedded_seven-segment-display-driver/actions/workflows/main.yml/badge.svg)](https://github.com/sridi17/M2_embedded_seven-segment-display-driver/actions/workflows/main.yml)
 
 
 
