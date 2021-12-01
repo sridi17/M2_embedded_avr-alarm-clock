@@ -1,6 +1,6 @@
 # M2_embedded_SEVEN-SEGMENT-DISPLAY-DRIVER
 [![CI](https://github.com/sridi17/M2_embedded_seven-segment-display-driver/actions/workflows/main.yml/badge.svg)](https://github.com/sridi17/M2_embedded_seven-segment-display-driver/actions/workflows/main.yml)
-[![static code cppcheck](https://github.com/sridi17/M2_embedded_seven-segment-display-driver/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/sridi17/M2_embedded_seven-segment-display-driver/actions/workflows/cppcheck.yml)
+[![code cppcheck](https://github.com/sridi17/M2_embedded_seven-segment-display-driver/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/sridi17/M2_embedded_seven-segment-display-driver/actions/workflows/cppcheck.yml)
 
 
 
