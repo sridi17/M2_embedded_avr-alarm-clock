@@ -11,6 +11,6 @@
 # Table No 2: Low level test plan
 |Test ID |	Description	Exp I/P	Exp O/p |
 |------- | ---------------------------- |
-|L_01 |	requirements showld be appropriate |
+|L_01 |	requirements should be appropriate |
 |L_02 |	required software showld be uploaded.|
 |L_03	| should set a correct directory path |
